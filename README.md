@@ -39,7 +39,7 @@
    cd MediaCrawler
    
    # 创建虚拟环境
-   # 注意python 版本需要3.7 - 3.9 高于该版本可能会出现一些依赖包兼容问题
+   # 我的python版本是：3.9.6，requirements.txt中的库是基于这个版本的，如果是其他python版本，可能requirements.txt中的库不兼容，自行解决一下。
    python -m venv venv
    
    # macos & linux 激活虚拟环境
@@ -81,7 +81,7 @@
    ```
 
 ### 数据保存
-- 支持保存到关系型数据库（Mysql、PgSQL等）
+- 支持关系型数据库Mysql中保存（需要提前创建数据库）
     - 执行 `python db.py` 初始化数据库数据库表结构（只在首次执行）
 - 支持保存到csv中（data/目录下）
 - 支持保存到json中（data/目录下）
@@ -134,12 +134,10 @@
 ## MediaCrawler爬虫项目交流群：
 <div id="join_wechat_group"> 
 
-> 扫描下方我的个人微信，备注：github，拉你进MediaCrawler项目交流群(请一定备注：github，会有wx小助手自动拉群)
-> 
-> 如果图片展示不出来，可以直接添加我的微信号：yzglan
+> 如果图片展示不出来或者群链接过期，可以直接添加我的微信号：yzglan
 
 <div style="max-width: 200px">  
-<p><img alt="relakkes_wechat" src="static/images/relakkes_weichat.JPG" style="width: 200px;height: 100%" ></p>
+<p><img alt="直接添加我的微信号：yzglan" src="static/images/13群二维码.JPG" style="width: 200px;height: 100%" ></p>
 </div>
 </div>
 
@@ -434,6 +432,9 @@ PS：如果打赏时请备注捐赠者，如有遗漏请联系我添加（有时
 
 | 捐赠者         | 捐赠金额  | 捐赠日期       |
 |-------------|-------|------------|
+| srhedbj     | 50 元  | 2024-08-20 |
+| *嘉          | 20 元  | 2024-08-15 |
+| *良          | 50 元  | 2024-08-13 |
 | *皓          | 50 元  | 2024-03-18 |
 | *刚          | 50 元  | 2024-03-18 |
 | *乐          | 20 元  | 2024-03-17 |
